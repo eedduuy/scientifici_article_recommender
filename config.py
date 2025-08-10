@@ -12,6 +12,8 @@ SRC_DIR = BASE_DIR / 'src'
 # Paths to data files
 ARXIV_DATASET = DATA_RAW_DIR / 'arxiv.json'
 CLEANED_ART = DATA_INTER_DIR / 'cleaned_articles.csv'
+EMBEDDINGS = DATA_PROCESSED_DIR / 'embeddings.npy'
+METADATA = DATA_PROCESSED_DIR / 'metadata.csv'
 
 
 # Variables
